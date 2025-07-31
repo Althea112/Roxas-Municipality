@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us – Roxas, Isabela</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 30px;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f0e8;
+      color: #3a2d21;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 32px;
+      color: #7b4e2f;
+      margin-bottom: 15px;
+    }
+
+    .contact-container {
+      max-width: 900px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .contact-info, .contact-form {
+      flex: 1 1 400px;
+      background: #fff;
+      padding: 25px;
+      border: 2px solid #dcc3a1;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .contact-info h2,
+    .contact-form h2 {
+      color: #5a3e2b;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    .contact-info p {
+      margin: 6px 0;
+      font-size: 15px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0 16px;
+      border: 1px solid #c3a98a;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    form textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    form button {
+      background-color: #8b5e3c;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    form button:hover {
+      background-color: #6f4528;
+    }
+
+    .map {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+      background-color: #eee1d3;
+      color: #715e4b;
+      border-top: 1px solid #d3b48c;
+    }
+
+    @media screen and (max-width: 768px) {
+      .contact-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Contact the Municipality</h1>
+
+  <div class="contact-container">
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>Municipal Hall Address</h2>
+      <p>Municipality of Roxas</p>
+      <p>Roxas, Isabela, Philippines</p>
+      <p>Email: <a href="mailto:roxasmunicipality@gmail.com">roxasmunicipality@gmail.com</a></p>
+      <p>Phone: (078) 123-4567</p>
+      <p>Office Hours: Mon–Fri, 8:00 AM – 5:00 PM</p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+        <input type="email" name="email" placeholder="Your Email Address" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Optional Google Map -->
+  <div class="map">
+    <h2 style="color: #6e4c30; margin-bottom: 10px;">Find Us on the Map</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.1238720218064!2d121.59840701473644!3d17.122875988132077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3385d8d0da06eb91%3A0x314fc723f4b979c0!2sRoxas%2C%20Isabela!5e0!3m2!1sen!2sph!4v1690549849991" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <footer>
+    &copy; 2025 Municipality of Roxas, Isabela. All rights reserved.
+  </footer>
+
+</body>
+</html>
